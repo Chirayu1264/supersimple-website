@@ -1,0 +1,73 @@
+
+<style>
+  body{
+    background: white;
+  }
+
+  .sub-button{
+   
+    background-color: rgb(225, 15, 15);
+    color: rgb(245, 242, 242);
+    border: none;
+    height: 35px;
+    width: 110px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 8px;
+    transition: opacity 0.5s ;
+  }
+
+  .sub-button:hover{
+    opacity: 0.2;
+  }
+  .sub-button:active{
+    opacity: 0.5;
+    
+  }
+  .join-button {
+  background-color: transparent;
+  color: rgb(20, 108, 224); /* Text color */
+  border-style: solid;
+  border-color: rgb(20, 108, 224); /* Border color */
+  border-width: 1px; /* Thin border like in the image */
+  
+  height: 36px;
+  width: 80px; /* Adjust width slightly for better alignment */
+  
+  border-radius: 3px; /* Slightly rounded corners */
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Adjust font for similarity */
+  font-size: 14px;
+  font-weight: bold; /* Bold text for emphasis */
+  line-height: 34px; /* Center align text vertically */
+  box-shadow: none; /* Ensure no shadow is applied */
+  outline: none; /* Remove focus outline */
+  transition: background-color 0.5s , color 0.5s;
+  }
+  .join-button:hover{
+    background-color: rgb(16, 57, 239);
+    color: white;
+  }
+  .join-button:active{
+    opacity: 0.7;
+  }
+  
+
+  
+  .tweet-button{
+    background-color: rgb(1, 128, 239);
+    color: white;
+    height: 35px;
+    width: 90px;
+    border-radius: 33px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+
+</style>
